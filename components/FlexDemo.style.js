@@ -3,21 +3,22 @@ export const s = StyleSheet.create({
 container: {
 flex: 1,
 flexDirection: 'column',
-backgroundColor: "black"
+backgroundColor: "white"
 },
 box1: {
-height: 100,
-width: 100,
-backgroundColor: "red"
+flex: 1,
+ flexDirection: 'row',
+ justifyContent: 'center',
+ alignItems: 'center',
+ backgroundColor: "red"
+
 },
 box2: {
-height: 100,
-width: 100,
-backgroundColor: "green"
-},
-box3: {
-height: 100,
-width: 100,
-backgroundColor: "blue"
+    flex:1,
+flexDirection: 'row',
+ justifyContent: 'center',
+ alignItems: 'center',
+ backgroundColor: "blue"
+
 }
 });

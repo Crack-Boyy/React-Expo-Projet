@@ -7,15 +7,8 @@ export default function HomeScreen() {
 return (
 <SafeAreaProvider>
 <SafeAreaView style={{ flex: 1 }}>
-<Text style={{ color: "red" }}>Hello 1</Text>
-<Text style={{ color: "blue" }}>Hello 2</Text>
-<Text style={{ backgroundColor: "green" }}>Hello 3</Text>
-<View style={{ backgroundColor: "blue", height: 200, width: 200 }}>
-<Text style={{ color: "yellow", fontSize: 30 }}>Carré</Text>
-</View>
-<View style={s.square}>
-<Text>Mon carré stylé</Text>
-</View>
+
+
 <FlexDemo />
 </SafeAreaView>
 </SafeAreaProvider>
