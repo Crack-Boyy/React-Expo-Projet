@@ -2,30 +2,15 @@ import { StyleSheet } from 'react-native';
 export const s = StyleSheet.create({
 container: {
 flex: 1,
-flexDirection: 'row',
+flexDirection: 'column',
 backgroundColor: "white"
 },
 box1: {
-
 flex:1,
-flexDirection:'flex-start',
-alignItems:'flex-start',
-backgroundColor: 'red'
 
-},
-box2: {
-flex:1,
-flexDirection:'center',
-backgroundColor: 'green',
+backgroundColor: 'red',
+height:100,
+width:100,
 alignItems:'center',
-
-},
-
-box3: {
-
-
-backgroundColor:'blue',
-flex:1,
-
 }
 });
